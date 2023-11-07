@@ -74,7 +74,7 @@ section .log {
     padding: 50px 20px 0px 20px;
     text-align: center;
     font-family: 'Poppins';
-    font-size: 32px;
+    font-size: 30px;
     color: var(--Principal, #234C63);
     font-weight: 400;
 }
@@ -83,7 +83,7 @@ section .log {
     padding: 0px 20px 100px 20px;
     text-align: center;
     font-family: 'Poppins';
-    font-size: 32px;
+    font-size: 30px;
     color: var(--Principal, #234C63);
     font-weight: 600;
     font-style: normal;
@@ -94,3 +94,29 @@ section .log {
     justify-content: center;
     padding: 0px 46px 100px 46px;
 }
+
+.footer{
+    background-color: #234C63;
+    color: var(--texto, #F1F1F1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around ;
+    font-family: Poppins;
+}
+
+.footer .footer-list{
+    display: inline;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+
+
