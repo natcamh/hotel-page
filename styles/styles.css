@@ -19,6 +19,7 @@ body {
     align-items: center;
     border: 3px;
     border-color: #ffff;
+    margin-right: 200px;
 }
 
 .header .logo img {
@@ -80,7 +81,7 @@ section .log {
 }
 
 .body-text p:last-child {
-    padding: 0px 20px 100px 20px;
+    padding: 0px 20px 0px 20px;
     text-align: center;
     font-family: 'Poppins';
     font-size: 30px;
@@ -118,5 +119,24 @@ section .log {
     margin-right: 10px;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 50px 0px;
+}
 
-
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 15%;
+    border: 1px solid #E76F51;
+    border-radius: 15px;
+    background-color: #E76F51;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Poppins;
+}
